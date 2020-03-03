@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
                 var a:Double = numOne.text.toString().toDouble()
                 var b:Double = numTwo.text.toString().toDouble()
                 var c:Double
-                c=a/b
+                c=a%b
                 textTwo.text=c.toString()
             }
         }
