@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnOne.setOnClickListener {
-            if (numOne.text.equals("") || numTwo.text.equals("")) {
+            if (numOne.text.isEmpty() || numTwo.text.isEmpty()) {
                 Toast.makeText(
                     applicationContext,
                     "Please Fill numbers!!",
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnTwo.setOnClickListener {
-            if (numOne.text.equals("") || numTwo.text.equals("")) {
+            if (numOne.text.isEmpty() || numTwo.text.isEmpty()) {
                 Toast.makeText(
                     applicationContext,
                     "Please Fill numbers!!",
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnThree.setOnClickListener {
-            if (numOne.text.equals("") || numTwo.text.equals("")) {
+            if (numOne.text.isEmpty() || numTwo.text.isEmpty()) {
                 Toast.makeText(
                     applicationContext,
                     "Please Fill numbers!!",
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnFour.setOnClickListener {
-            if (numOne.text.equals("") || numTwo.text.equals("")) {
+            if (numOne.text.isEmpty() || numTwo.text.isEmpty()) {
                 Toast.makeText(
                     applicationContext,
                     "Please Fill numbers!!",
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnFive.setOnClickListener {
-            if (numOne.text.equals("") || numTwo.text.equals("")) {
+            if (numOne.text.isEmpty() || numTwo.text.isEmpty()) {
                 Toast.makeText(
                     applicationContext,
                     "Please Fill numbers!!",
